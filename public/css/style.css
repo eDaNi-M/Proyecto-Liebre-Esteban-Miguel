@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing:border-box ;
+}
+.textoHeder{
+    font-size: 12px;
+}
+.titulares{
+    font-size: 24px;
+}
+.precios{
+    font-size: 18px;
+}
+.des{
+    font-size: 16px;
+}
+.subtitulo{
+    text-align: center;
+}
+
+body{
+background-color: #EAC926;
+}
+
+footer{
+text-align: center;
+}
+.derechos{
+    text-align: left;
+}
