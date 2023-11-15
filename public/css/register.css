@@ -1,0 +1,75 @@
+.form_register {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form_login{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  }
+  
+  .register_title {
+    text-align: center;
+    margin: 20px;
+    font-size: 28px;
+  }
+
+  .register_subti {
+    margin: 20px 50px;
+    font-size: 1.2rem;
+    align-self: flex-start;
+  }
+  
+  input {
+    font-size: 16px;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+  }
+  
+  .control {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  label {
+    margin-right: 10px;
+    font-size: 1.1rem;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin: 10px;
+  }
+  
+  .register_submit_btn{
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.8s ease;
+    background-color: #1259c3;
+  }
+  
+  .register_submit_btn:hover{
+    background-color: #03264c;
+  }
+  
