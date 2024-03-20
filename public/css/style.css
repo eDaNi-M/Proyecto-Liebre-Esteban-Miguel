@@ -205,6 +205,13 @@
       opacity: 1;
     }
   
+    .descripcion {
+      display: block;
+      opacity: 0;
+      color:#03264c;
+      transition: all 500ms;
+    } 
+
     .producto{
       transition: all 300ms;
     }
@@ -220,6 +227,7 @@
     .delivery_icon:hover{
       transform: rotate(-90deg);
     }
+
   
   }
 

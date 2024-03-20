@@ -10,10 +10,18 @@
   <body>
     <header class="main_header">
       <div class="main_header_top">
-        <a class="header_logo" href="/"><img src="img/logo-mercado-liebre.svg" alt="Logo de Mercado Liebre"/>
+        <a class="header_logo" href="/"
+          ><img
+            src="img/logo-mercado-liebre.svg"
+            alt="Logo de Mercado Liebre"
+          />
         </a>
         <form class="nav_search">
-          <input class="nav_search_input" type="text" placeholder="Buscar productos"/>
+          <input
+            class="nav_search_input"
+            type="text"
+            placeholder="Buscar productos"
+          />
           <button class="nav_search_buton">
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
@@ -33,13 +41,19 @@
         </ul>
         <ul>
           <li>
-            <a href="/register">Creá tu cuenta <i class="fa-regular fa-address-card"></i></a>
+            <a href="/register"
+              >Creá tu cuenta <i class="fa-regular fa-address-card"></i
+            ></a>
           </li>
           <li>
-            <a href="/login">Ingresá <i class="fa-solid fa-right-to-bracket"></i></a>
+            <a href="/login"
+              >Ingresá <i class="fa-solid fa-right-to-bracket"></i
+            ></a>
           </li>
           <li>
-            <a href="#">Mis compras <i class="fa-solid fa-basket-shopping"></i></a>
+            <a href="#"
+              >Mis compras <i class="fa-solid fa-basket-shopping"></i
+            ></a>
           </li>
         </ul>
       </nav>
@@ -47,16 +61,78 @@
     <main>
       <form class="form_register" action="" method="POST">
         <h1 class="register_title">Registro</h1>
-        <input class="control" type="text" id="apellido" name="apellido" placeholder="Apellido" />
-        <input class="control" type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <input
+          class="control"
+          type="text"
+          id="apellido"
+          name="apellido"
+          placeholder="Apellido"
+        />
+        <input
+          class="control"
+          type="text"
+          id="nombre"
+          name="nombre"
+          placeholder="Nombre"
+        />
         <h3 class="register_subti">Fecha de nacimiento</h3>
-        <input class="control" type="date" name="fechaNacimiento" id="fechaNacimiento"/>
+        <input
+          class="control"
+          type="date"
+          name="fechaNacimiento"
+          id="fechaNacimiento"
+        />
         <h3 class="register_subti">Contacto</h3>
-        <input class="control" type="email" name="email" id="email" placeholder="Email"/>
-        <input class="control" type="tel" name="telefono" id="telefono" placeholder="Telefono"/>
-        <h3 class="register_subti">Crea tu contraseña</h3>
+        <input
+          class="control"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+        />
+        <input
+          class="control"
+          type="text"
+          name="domicilio"
+          id="domicilio"
+          placeholder="Domicilio"
+        />
+        
+        <h3 class="register_subti">Perfil del usuario</h3>
+        <label
+          ><input type="radio" name="perfil" /> Comprador
+          <input type="radio" name="perfil" /> Vendedor</label
+        >
+        <h3 class="register_subti">Intereses</h3>
+        <div class="interests">
+          <label for="electro"
+            ><input type="checkbox" name="intereses" id="electro" />
+            Electro</label
+          >
+          <label for="moda"
+            ><input type="checkbox" name="intereses" id="moda" /> Moda</label
+          >
+          <label for="hogar"
+            ><input type="checkbox" name="intereses" id="hogar" /> Hogar</label
+          >
+          <label for="jugueteria"
+            ><input type="checkbox" name="intereses" id="jugueteria" />
+            Juguetería</label
+          >
+          <label for="vidaSana"
+            ><input type="checkbox" name="intereses" id="vidaSana" /> Vida
+            sana</label
+          >
+        </div>
+        <br />
+        <h3 class="register_subti">Foto del usuario</h3>
+        <input type="file" name="imagen" id="imagen" />
         <input class="control" type="password" placeholder="Contraseña" />
-        <input class="control" type="password" placeholder="Confirmar contraseña"/>
+        <input
+          class="control"
+          type="password"
+          placeholder="Confirmar contraseña"
+        />
 
         <button class="register_submit_btn" type="submit">Registrarse</button>
       </form>
